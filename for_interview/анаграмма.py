@@ -11,4 +11,3 @@ def is_anagram(a, b):
         return False
     else:
         return "".join(sorted(list(b.lower()))) in "".join(sorted(list(a.lower())))
-      
